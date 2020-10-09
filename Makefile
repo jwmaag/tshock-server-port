@@ -18,7 +18,6 @@ NUGET_DEPENDS=	BCrypt.Net=0.1.0 \
 				NuGet.Core=2.13.0 \
 				OTAPI=2.0.0.32
 
-
 USES= mono:nuget
 
 USE_GITHUB=		yes
@@ -27,5 +26,10 @@ GH_PROJECT= 	TShock
 GH_TAGNAME=		v4.3.26
 
 GH_TUPLE=		Pryaxis:TerrariaAPI-Server:be2a5c61b209ee876af815abe03030c4028a2687:TerrariaAPI_Server/TerrariaServerAPI
+
+
+post-extract:
+	${CP} ${FILESDIR}/Makefile ${WRKSRC}/Makefile
+
 
 .include <bsd.port.mk>

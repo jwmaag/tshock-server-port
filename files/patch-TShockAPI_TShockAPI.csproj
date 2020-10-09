@@ -1,0 +1,18 @@
+--- TShockAPI/TShockAPI.csproj.orig	2020-10-09 01:06:31 UTC
++++ TShockAPI/TShockAPI.csproj
+@@ -73,7 +73,7 @@
+     </Reference>
+     <Reference Include="OTAPI, Version=1.3.4.4, Culture=neutral, processorArchitecture=MSIL">
+       <SpecificVersion>False</SpecificVersion>
+-      <HintPath>..\TerrariaServerAPI\TerrariaServerAPI\bin\Debug\OTAPI.dll</HintPath>
++      <HintPath>..\TerrariaServerAPI\TerrariaServerAPI\bin\$(ConfigurationName)\OTAPI.dll</HintPath>
+     </Reference>
+     <Reference Include="System" />
+     <Reference Include="System.Data" />
+@@ -212,4 +212,4 @@
+   <Target Name="AfterBuild">
+   </Target>
+   -->
+-</Project>
+\ No newline at end of file
++</Project>
