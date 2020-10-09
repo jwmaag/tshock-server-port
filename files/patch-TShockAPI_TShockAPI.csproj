@@ -1,0 +1,21 @@
+--- TShockAPI/TShockAPI.csproj.orig	2020-10-09 13:02:11 UTC
++++ TShockAPI/TShockAPI.csproj
+@@ -70,9 +70,9 @@
+     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+     </Reference>
+-    <Reference Include="OTAPI=">
++    <Reference Include="OTAPI">
+       <SpecificVersion>False</SpecificVersion>
+-      <HintPath Condition="Exists('..\TerrariaServerAPI\TerrariaServerAPI\bin\$(ConfigurationName)\OTAPI.dll')">..\TerrariaServerAPI\TerrariaServerAPI\bin\$(ConfigurationName)\OTAPI.dll</HintPath>
++      <HintPath>..\TerrariaServerAPI\TerrariaServerAPI\bin\$(Configuration)\OTAPI.dll</HintPath>
+     </Reference>
+     <Reference Include="System" />
+     <Reference Include="System.Data" />
+@@ -236,4 +236,4 @@
+   <Target Name="AfterBuild">
+   </Target>
+   -->
+-</Project>
+\ No newline at end of file
++</Project>
