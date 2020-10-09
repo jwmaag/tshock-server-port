@@ -1,4 +1,9 @@
 all: TShockAPI/bin/Release/TerrariaServer.exe
+	@cp ./TShockAPI/bin/Release/* Output/
+	@cp ./prebuilts/* Output/
+	@mkdir -p ./Output/ServerPlugins
+	@mv ./Output/TShockAPI.dll ./Output/ServerPlugins/
+
 
 TShockAPI/bin/Release/TerrariaServer.exe: TerrariaServerAPI/TShock.Modifications.Bootstrapper/bin/Release/Output/OTAPI.dll 
 	@msbuild ./TShock.sln /p:Configuration=Release
