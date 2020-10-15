@@ -31,5 +31,9 @@ GH_TUPLE=       Pryaxis:TerrariaAPI-Server:0b097b0:TerrariaAPI_Server/TerrariaSe
 post-extract:
 	${CP} ${FILESDIR}/Makefile ${WRKSRC}/Makefile
 
+do-install:
+	${MKDIR} ${STAGEDIR}/${PREFIX}/libexec/tshock
+	${CP} -r ${WRKSRC}/Output/* ${STAGEDIR}/${PREFIX}/libexec/tshock/
+	${CP} ${FILESDIR}/tshock ${STAGEDIR}/${PREFIX}/bin/
 
 .include <bsd.port.mk>
