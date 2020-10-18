@@ -1,4 +1,4 @@
-TIMESTAMP = 1602771773
+TIMESTAMP = 1603045065
 SHA256 (bcrypt.net.0.1.0.nupkg) = e3d2a5bcf2aa9768279001020859d7f3f0ab207002da67ed608c33201b5b5600
 SIZE (bcrypt.net.0.1.0.nupkg) = 28454
 SHA256 (mysql.data.6.9.8.nupkg) = 7f5284a2664ba6f54de092f34567421f6f53ef0af06f00045126a61b4208efee
@@ -17,7 +17,7 @@ SHA256 (nuget.core.2.14.0.nupkg) = cc282153f8f6b4c1270c2a3946de1ce08c18f5f5995d5
 SIZE (nuget.core.2.14.0.nupkg) = 250189
 SHA256 (otapi.2.0.0.39.nupkg) = 65e0ec73031d1b300a51cd67bb0284b776458969892a3062caff88a194c41ef9
 SIZE (otapi.2.0.0.39.nupkg) = 5252957
-SHA256 (pryaxis-TShock-v4.4.0-pre13-v4.40-pre13_GH0.tar.gz) = 76dc46dde95bcaa9ee3bec92516c82117c4a457b1a81cfa77ed702dafa808ef4
-SIZE (pryaxis-TShock-v4.4.0-pre13-v4.40-pre13_GH0.tar.gz) = 1525437
+SHA256 (pryaxis-TShock-v4.4.0-pre13_GH0.tar.gz) = 48fb931222d7ce8b5f1e7bd32f947390ee15e9e778dfd9780b6dcab4ba7d51cd
+SIZE (pryaxis-TShock-v4.4.0-pre13_GH0.tar.gz) = 1525439
 SHA256 (Pryaxis-TerrariaAPI-Server-0b097b0_GH0.tar.gz) = af780e11feb4491d155eef2c9d9b0e8de4c440e70298a4cacba440d7f61530bd
 SIZE (Pryaxis-TerrariaAPI-Server-0b097b0_GH0.tar.gz) = 662711

@@ -1,6 +1,7 @@
 PORTNAME=             tshock-server
 DISTVERSIONPREFIX=    v
 DISTVERSION=          4.4.0-pre13
+PORTREVISON=		  1
 
 CATEGORIES=     games
 MAINTAINER=     jwmaag@gmail.com
@@ -23,7 +24,7 @@ USES=           mono:nuget
 USE_GITHUB=     yes
 GH_ACCOUNT=     pryaxis
 GH_PROJECT=     TShock
-GH_TAGNAME=     v4.40-pre13
+GH_TAGNAME=     v4.4.0-pre13
 
 GH_TUPLE=       Pryaxis:TerrariaAPI-Server:0b097b0:TerrariaAPI_Server/TerrariaServerAPI
 
