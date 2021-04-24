@@ -6,7 +6,7 @@ all: TShockAPI/bin/Release/TerrariaServer.exe
 
 
 TShockAPI/bin/Release/TerrariaServer.exe: TerrariaServerAPI/TShock.Modifications.Bootstrapper/bin/Release/Output/OTAPI.dll 
-	@msbuild ./TShock.sln /p:Configuration=Release
+	@msbuild /p:Configuration=Release /p:ConfigurationName=Release ./TShock.sln
 
 TerrariaServerAPI/TShock.Modifications.Bootstrapper/bin/Release:
 	@ln -s ../../.nuget/packages ./TerrariaServerAPI/packages
